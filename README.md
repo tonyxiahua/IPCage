@@ -41,5 +41,6 @@ add the following to the bottom line
 ## why my Github commitment is root user?
 Becasue you didn't change to this:
 ```
-
+git config --global user.name "tonyxiahua"
+git config --global user.email "@gmail.com"
 ```
