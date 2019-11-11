@@ -166,6 +166,11 @@ def main():
     #Output
     jobs.saveIPtoCSV()
     jobs.saveNametoCSV()
+
+    print("AutoCollection has been done.")
+    print("the lastb history has been cleared")
+    print("the output file is inside the output folder")
+    print("So long")
     #time
     #endtime = datetime.datetime.now()
     #print("Total time used: ",endtime - startime)
