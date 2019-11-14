@@ -15,18 +15,7 @@ dirpath = os.getcwd()
 '''
 Dictionary Class
 Easy Add method for dictionary 
-'''
 
-'''
-class dicTemplate(dict): 
-    # __init__ function 
-    def __init__(self): 
-        self = dict() 
-    # Function to add key:value 
-    def add(self, key, value): 
-        self[key] = value     
-'''
-'''
 Text Handling ,dealing with text data
 methods:
 nameProcess()              return name dic function 
@@ -51,6 +40,7 @@ class text2Dic:
         os.system(cmd2)
         cmd3 = '> /var/log/btmp'
         os.system(cmd3)
+        
         ''''''''''''''''''''''''''''''
         if os.path.exists('data/namedb.json'):
             with open('data/namedb.json', 'r') as fp:
@@ -159,6 +149,12 @@ main function
 '''
 def main():
     #startime = datetime.datetime.now()
+    #cmd4 = 'mkdir data log output'
+    #cmd5 = 'touch '+dirpath+'/data/ipdb.json'
+    #cmd6 = 'echo "{}"> '+dirpath+'/data/ipdb.json'
+    #os.system(cmd4)
+    #os.system(cmd5)
+    #os.system(cmd6)
     """
     create new jobs object to text2Dic
     """
