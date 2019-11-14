@@ -18,7 +18,8 @@ Secure your port 22 and protect yourself from global attackers.
 ## Useage 
 
 Require Python to run the code 
-```
+``
+python init.py`
 python autoban.py
 python iptables.py
 ```
