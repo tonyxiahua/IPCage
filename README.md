@@ -9,20 +9,22 @@ Secure your port 22 and protect yourself from global attackers.
 
 ## Known Feature
 
-- The ```autoban.py``` is able to detect and release the attacker IP
+- The autoban.py is able to detect and release the attacker IP
 - Collected data inside output folder
 - Collected machine useage data inside the log folder
-- The ```iptables.py``` is able to execute iptables command and banning the attacker.
+- The iptables.py is able to execute iptables command and banning the attacker.
 - Progress bar shows how much item we still need for iptables commands
 
 ## Useage 
 
-Require Python to run the code 
-``
-python init.py`
+Require Python to run the code
+
+```
+python init.py
 python autoban.py
 python iptables.py
 ```
+
 It takes time if there are many attackers.
 
 ## TO DO
@@ -38,6 +40,7 @@ The iptables.py needs following functions
 There is the hidden folder .git in every repositories 
 modify ```config``` file 
 add the following to the bottom line
+
 ```
 [credential]
     helper = store
